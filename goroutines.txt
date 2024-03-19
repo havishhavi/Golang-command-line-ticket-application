@@ -1,0 +1,4 @@
+go routine is a type of concurrent threads executing at the same time 
+eg: if 20 users booked ticket at the same time 20 new threads are created each does its own job and once completed its thread will be deleted 
+go keyword is used to enable the new go routine
+goroutine is a lifgtweight thread managed by the go runtime 

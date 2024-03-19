@@ -1,0 +1,51 @@
+func main() {
+	fmt.Println("hello world")
+	// declaring a single variable
+	var j int
+	//declaring with value
+	var i int = 10
+
+	//type inference (go can detect the type without mentioning explicitly)
+
+	var h = 10
+	println(h)
+
+	//declaring two variables
+	var a, b int = 20, 30
+	var q, w = 20, 43
+	//2 variables in short hand
+	v, n := 30.3, 40.3
+	m := math.Min(v, n)
+	println(m)
+	//can also declare values after initialization
+	var z, x int
+	z = 10
+	x = 15
+	println(z, x)
+	fmt.Println(i, a, b)
+	println(q, j, w)
+
+	//declaring various types of statements in a single statement
+	var (
+		name  = "havish"
+		age   = 20
+		phone = 213654789
+	)
+	println("my name is %v and age %v with number %v", name, age, phone)
+	fmt.Println("my name is", name, ", age is", age, "and phone is", phone)
+
+	// short hand declaration
+	c := 10
+	println(c)
+
+	//scanning and setting up variables
+	var userName string
+	var email string
+
+	fmt.Scan(&userName)
+	fmt.Printf("the usr name is : %v \n", userName)
+
+	fmt.Scan(&email)
+	fmt.Printf("the users email is: %v", email)
+
+}

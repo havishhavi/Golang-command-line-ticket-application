@@ -1,0 +1,26 @@
+//Example of switch statement 
+// based on the city user selected, particular code block is executed 
+// switch statement allows a variable to be tested for equality against a list of values
+
+//in switch statement we can consolidate multiple values and execute a same login for both the values
+
+city := "London"
+
+switch city {
+    case "New York":
+        code for booking ny tickets
+    case "Singapore":
+        code for booking Singapore tickets
+    case "Hyderabad":
+        code for Hyderabad
+    // if code block is same for mexico and usa then include both cities in one case
+    case "mexico", "usa":
+        code for both mexico and usa
+    //default handles the case if no match found
+    default:
+        no valid city selected 
+        // default is like else in if else statement 
+    
+    
+}
+

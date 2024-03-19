@@ -1,0 +1,22 @@
+//to initialize a map 
+//declaring a map(make) keyword is used to create a map first string is type of keys and second string is value 
+
+
+import "strconv
+var userData = make(map[string]string)
+//saving data into map
+userData["firstName"] = firstName
+userData["lastName"] = lastName
+// for storing a uint to a map 
+userData["Tickets"] = strconv.FormatUint(uint64(userTickets), 10) 
+//here converting uint into a string using FormatUint from uint64 to string 
+
+booking = append(bookings, userData)
+fmt.println(:list of bookings %v", booking)
+
+
+//defining the slice to add all the bookings userData 
+//
+var bookings = make([]map[string]string, 0)
+// 0 is the intial size of the slice it will dynamically increase with the data 
+

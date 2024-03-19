@@ -1,0 +1,16 @@
+// main function is the default function
+///basic function
+func main() {
+    //calling a function declared outside main function 
+    greetUsers()
+
+}
+
+func greetUsers() {
+    fmt.println("hello users how are you ")
+    // declaring a function 
+}
+
+//function Parameters
+parameters also called arguments
+information passed in func as parameters
